@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+.navbar{
+  width:100;
+  height:10vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  padding: 10px;
+  font-weight:bold;
+
+}
+
+.products-container{
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  padding:10px;
+
+}
+
+img{
+  width:250px;
+  height:250px;
+  transition: all 0.3s ease;
+}
+
+img:hover{
+   transform: scale(1.1);
+}
+  
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.card-description{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.footer{
+     width: 100%;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color:white;
+     font-size: 19px;
+     font-weight: bold;
+}
+.login{
+  width: 100%;
+  min-height: 85vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-input{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align:center;
+}
+
+input{
+  padding:10px;
+  width: 300px;
+  border:1px solid #cecece;
+  margin: 10px 0;
+}
+
+small{
+  color: red;
+}
+
+button{
+  padding: 10px;
+  margin: 10px 0;
+  width: 300px;
+  border:1px solid #cecece;
+  background-color: black;
+  color:white;
+ 
+}
+
+.log-out-btn{
+width:100px;
+padding: 10px;
+margin-left: 50px;
+border:1px solid #cecece;
+background-color: black;
+color:white;
+}
